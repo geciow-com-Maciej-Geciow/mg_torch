@@ -1,6 +1,6 @@
 name: mg_torch
 description: "Lightweight torch/flashlight control for Android & iOS via a single API."
-version: 0.0.3
+version: 0.0.4 # new docs
 homepage: https://github.com/geciow-com-Maciej-Geciow/mg_torch
 repository: https://github.com/geciow-com-Maciej-Geciow/mg_torch
 issue_tracker: https://github.com/geciow-com-Maciej-Geciow/mg_torch/issues
