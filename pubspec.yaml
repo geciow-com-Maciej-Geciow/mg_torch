@@ -1,0 +1,28 @@
+name: mg_torch
+description: "Lightweight torch/flashlight control for Android & iOS via a single API."
+version: 0.0.3
+homepage: https://github.com/geciow-com-Maciej-Geciow/mg_torch
+repository: https://github.com/geciow-com-Maciej-Geciow/mg_torch
+issue_tracker: https://github.com/geciow-com-Maciej-Geciow/mg_torch/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.geciow.plugins.mgtorch
+        pluginClass: MgTorchPlugin
+      ios:
+        pluginClass: MgTorchPlugin
